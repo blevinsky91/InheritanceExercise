@@ -6,7 +6,8 @@ namespace Inheritance
     {
         static void Main(string[] args)
         {
-            // TODO Be sure to follow best practice when creating your classes
+            
+           // TODO Be sure to follow best practice when creating your classes
 
             // Create a class Animal - DONE 
             // give this class 4 members that all Animals have in common
@@ -19,8 +20,6 @@ namespace Inheritance
             // Create a class Reptile - DONE
             // give this class 4 members that are specific to Reptile
             // Set this class to inherit from your Animal Class
-
-
 
 
             /*Create an object of your Bird class - DONE
@@ -38,6 +37,7 @@ namespace Inheritance
             bird1.EatsWhat = "Worms";
             bird1.CanFly = true;
 
+            bird1.PrintBirdDetails();
 
 
             /*Create an object of your Reptile class - DONE
@@ -54,6 +54,8 @@ namespace Inheritance
             rep1.Length = "4 feet long";
             rep1.HasScales = true;
             rep1.HasLongTongue = true;
+
+            rep1.PrintReptileDetails();
         }
     }
 }
